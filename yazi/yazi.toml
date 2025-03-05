@@ -1,0 +1,20 @@
+[manager]
+sort_by = "natural"
+sort_sensitive = false
+sort_translit = true
+linemode = "size"
+show_symlink = false
+
+[preview]
+max_width = 2000
+max_height = 3000
+
+[opener]
+open_svgl = [
+	{ run = 'sviewgl "$@"', desc = "Open with Simple Viewer GL" },
+]
+
+[open]
+prepend_rules = [
+	{ mime = "image/*", use = "open_svgl" },
+]

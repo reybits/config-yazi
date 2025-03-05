@@ -1,0 +1,24 @@
+# --- Dropping to the shell ---------------------------------------------------
+[[manager.prepend_keymap]]
+on   = "!"
+run  = 'shell "$SHELL" --block'
+desc = "Open shell here"
+
+
+# --- Close input by once Esc press -------------------------------------------
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"
+
+# --- Hide/Show preview -------------------------------------------------------
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane min-preview"
+desc = "Show or hide the preview pane"
+
+# --- Maximize/Restore preview-------------------------------------------------
+# [[manager.prepend_keymap]]
+# on   = "T"
+# run  = "plugin toggle-pane max-preview"
+# desc = "Maximize or restore the preview pane"
