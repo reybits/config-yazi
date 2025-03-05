@@ -2,6 +2,8 @@
 
 This repository contains my custom Yazi configuration.
 
+![Yazi](https://github.com/andreyugolnik/config-yazi/blob/master/yazi.png?raw=true)
+
 For the best experience, use it alongside my [config-tmux](https://github.com/andreyugolnik/config-tmux.git) repository.
 
 ## Install
