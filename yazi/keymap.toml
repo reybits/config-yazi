@@ -11,14 +11,16 @@ on   = "<Esc>"
 run  = "close"
 desc = "Cancel input"
 
-# --- Hide/Show preview -------------------------------------------------------
-[[manager.prepend_keymap]]
-on   = "T"
-run  = "plugin toggle-pane min-preview"
-desc = "Show or hide the preview pane"
 
-# --- Maximize/Restore preview-------------------------------------------------
+# --- Hide/Show preview -------------------------------------------------------
 # [[manager.prepend_keymap]]
 # on   = "T"
-# run  = "plugin toggle-pane max-preview"
-# desc = "Maximize or restore the preview pane"
+# run  = "plugin toggle-pane min-preview"
+# desc = "Show or hide the preview pane"
+
+
+# --- Maximize/Restore preview ------------------------------------------------
+[[manager.prepend_keymap]]
+on   = "T"
+run  = "plugin toggle-pane max-preview"
+desc = "Maximize or restore the preview pane"
