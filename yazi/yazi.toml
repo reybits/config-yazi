@@ -17,4 +17,6 @@ open_svgl = [
 [open]
 prepend_rules = [
 	{ mime = "image/*", use = "open_svgl" },
+# if PNG isn't detected as image/png, then use this rule
+	{ name = "*.png", use = "open_svgl" },
 ]
