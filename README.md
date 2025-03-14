@@ -2,14 +2,14 @@
 
 This repository contains my custom Yazi configuration.
 
-![Yazi](https://github.com/andreyugolnik/config-yazi/blob/master/yazi.png?raw=true)
+![Yazi](https://github.com/raybits/config-yazi/blob/master/yazi.png?raw=true)
 
-For the best experience, use it alongside my [config-tmux](https://github.com/andreyugolnik/config-tmux.git) repository.
+For the best experience, use it alongside my [config-tmux](https://github.com/raybits/config-tmux.git) repository.
 
 ## Install
 
 ```sh
-git clone https://github.com/andreyugolnik/config-yazi.git ~/.config/yazi
+git clone https://github.com/raybits/config-yazi.git ~/.config/yazi
 ```
 
 ## Related links
